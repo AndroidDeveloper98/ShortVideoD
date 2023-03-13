@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <action
+        android:id="@+id/action_home"
+        app:destination="@id/homeFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right"
+        app:popUpTo="@+id/homeFragment"
+        app:launchSingleTop="true"
+        app:popUpToInclusive="true" />
+
+    <action
+        android:id="@+id/action_search"
+        app:destination="@id/searchFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right"
+        app:launchSingleTop="true"
+        app:popUpTo="@+id/searchFragment"
+        app:popUpToInclusive="true" />
+
+    <action
+        android:id="@+id/action_chat"
+        app:destination="@id/chatActivityFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right"
+        app:launchSingleTop="true"
+        app:popUpTo="@+id/chatActivityFragment"
+        app:popUpToInclusive="true" />
+
+    <action
+        android:id="@+id/action_main_profile"
+        app:destination="@id/mainProfileFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right"
+        app:launchSingleTop="true"
+        app:popUpTo="@+id/mainProfileFragment"
+        app:popUpToInclusive="true" />
+
+
+    <action
+        android:id="@+id/action_homeFragment_to_followingFragment"
+        app:destination="@id/followingFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right" />
+
+    <action
+        android:id="@+id/action_homeFragment_to_walletFragment"
+        app:destination="@id/walletFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right" />
+
+    <action
+        android:id="@+id/action_homeFragment_to_userProfileFragment"
+        app:destination="@id/userProfileFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right" />
+    <action
+        android:id="@+id/action_searchFragmemt_to_searchUserHashFragment"
+        app:destination="@id/searchUserHashFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right" />
+
+    <action
+        android:id="@+id/action_searchFragment_to_viewHashtag"
+        app:destination="@id/viewHashtag"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right" />
+
+    <action
+        android:id="@+id/action_searchFragment_to_homeFragment"
+        app:destination="@id/homeFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right"
+        app:popUpToInclusive="true" />
+
+    <action
+        android:id="@+id/action_searchUserHashFragment_to_searchHashFragment"
+        app:destination="@id/searchHashFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right" />
+
+    <action
+        android:id="@+id/action_searchUserHashFragment_to_searchUserFragment"
+        app:destination="@id/searchUserFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right" />
+
+    <action
+        android:id="@+id/action_searchUserHashFragment_to_userProfileFragment"
+        app:destination="@id/userProfileFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right" />
+
+    <action
+        android:id="@+id/action_searchUserHashFragment_to_viewHashtag"
+        app:destination="@id/viewHashtag"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right" />
+
+    <action
+        android:id="@+id/action_mainProfileFragment_to_walletFragment"
+        app:destination="@id/walletFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right" />
+
+    <action
+        android:id="@+id/action_chatActivityFragment_to_chatFragment"
+        app:destination="@id/chatFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right" />
+
+    <action
+        android:id="@+id/action_chatActivityFragment_to_userActivity"
+        app:destination="@id/userActivity"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right" />
+
+    <action
+        android:id="@+id/action_homeActivityFragment_to_walletFragment"
+        app:destination="@id/walletFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right" />
+
+    <action
+        android:id="@+id/action_viewhashtag_to_Homefragment"
+        app:destination="@id/homeFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right" />
+
+    <action
+        android:id="@+id/action_mainprofilefragment_to_Homefragment"
+        app:destination="@id/homeFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right" />
+
+    <action
+        android:id="@+id/action_followingfragment_to_userProfileFragment"
+        app:destination="@id/userProfileFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right" />
+
+    <action
+        android:id="@+id/action_chatfragment_to_userProfileFragment"
+        app:destination="@id/userProfileFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right" />
+
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.shortvideod.fragment.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/followingFragment"
+        android:name="com.example.shortvideod.fragment.FollowingFragment"
+        android:label="FollowingFragment"
+        tools:layout="@layout/fragment_following">
+
+        <argument
+            android:name="myname"
+            app:argType="integer" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/walletFragment"
+        android:name="com.example.shortvideod.fragment.WalletFragment"
+        android:label="WalletFragment"
+        tools:layout="@layout/fragment_wallet">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/userProfileFragment"
+        android:name="com.example.shortvideod.fragment.UserProfileFragment"
+        android:label="UserProfileFragment"
+        tools:layout="@layout/fragment_user_profile">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.shortvideod.fragment.SearchFragment"
+        android:label="SearchFragment"
+        tools:layout="@layout/fragment_search">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/searchUserHashFragment"
+        android:name="com.example.shortvideod.fragment.SearchUserHashFragment"
+        android:label="SearchUserHashFragment"
+        tools:layout="@layout/fragment_search_userhash">
+
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/searchUserFragment"
+        android:name="com.example.shortvideod.fragment.SearchUserFragment"
+        android:label="SearchUserFragment"
+        tools:layout="@layout/fragment_search_user">
+
+        <argument
+            android:name="username"
+            app:argType="string" />
+
+        <argument
+            android:name="image"
+            app:argType="integer" />
+
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/searchHashFragment"
+        android:name="com.example.shortvideod.fragment.SearchHashtagFragment"
+        android:label="SearchHashFragment"
+        tools:layout="@layout/fragment_search_hashtag">
+
+        <argument
+            android:name="myname"
+            app:argType="string" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/viewHashtag"
+        android:name="com.example.shortvideod.fragment.ViewHashtagFragment"
+        android:label="viewHashtag"
+        tools:layout="@layout/fragment_view_hashtag" />
+
+    <fragment
+        android:id="@+id/chatActivityFragment"
+        android:name="com.example.shortvideod.fragment.ChatActivityFragment"
+        android:label="chatActivityFragment"
+        tools:layout="@layout/fragment_chat_activity">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.example.shortvideod.fragment.ChatFragment"
+        android:label="chatFragment"
+        tools:layout="@layout/fragment_chat" />
+
+    <fragment
+        android:id="@+id/userActivity"
+        android:name="com.example.shortvideod.fragment.UserActivityFragment"
+        android:label="userActivity"
+        tools:layout="@layout/fragment_user_activity" />
+
+    <fragment
+        android:id="@+id/mainProfileFragment"
+        android:name="com.example.shortvideod.fragment.MainProfileFragment"
+        android:label="mainProfileFragment"
+        tools:layout="@layout/fragment_main_profile">
+
+
+    </fragment>
+
+
+
+</navigation>

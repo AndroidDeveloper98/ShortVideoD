@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">Buzzy</string>
+    <string name="sound_hint">Click to choose a song.</string>
+    <string name="timer_hint">To cancel timer before it starts, click here.</string>
+
+    <string name="recorder_error_in_progress">To do this, please stop recording first.</string>
+    <string name="recorder_error_maxed_out">You have already recorded for maximum duration.</string>
+    <string name="recorder_error_no_clips">Please record your clip first to continue.</string>
+    <string name="progress_title">Please Wait....</string>
+    <string name="message_song_change">You cannot change songDummy after recording has started.</string>
+    <string name="message_song_select">You cannot select songDummy after recording has started.</string>
+    <string name="mmss">00:00</string>
+    <string name="permission_rationale_upload">To pick and upload video from Gallery, storage permission is needed.</string>
+    <string name="browse_file_title">Browse File</string>
+    <string name="song_volume_label">Tune song volume</string>
+
+    <string name="video_volume_label">Tune video volume</string>
+    <string name="volume_hint">You may use these options to control intensity of audio between recorded video and (optional) chosen song.</string>
+    <string name="audio_from_clip">Custom audio from clip.</string>
+    <string name="no_internet_connection">Check your internet</string>
+    <string name="pan_audio_hint">You may use this option to synchronize audio and video by adjusting audio to start a little earlier or later.</string>
+    <string name="manage_audio_volume">Manage Audio Volume</string>
+    <string name="sticker">Sticker</string>
+    <string name="filters">Filters</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="chat">Chat</string>
+    <string name="profile">Profile</string>
+    <string name="gift">Gift</string>
+    <string name="shop_now">SHOP NOW</string>
+    <string name="following">Following</string>
+    <string name="trending_users">Trending Users</string>
+    <string name="following_str">Here you can see new posts from accounts you follow</string>
+    <string name="follow">Follow</string>
+    <string name="Following">Following</string>
+    <string name="Follow">Follow</string>
+    <string name="skills">Skills</string>
+    <string name="dance">Dance</string>
+    <string name="view_All">View All</string>
+    <string name="shoot">Shoot</string>
+    <string name="hashtag_string">Skill metadata tag that is prefaced by the hash symbol, #. Hashtags are used on microblogging and photo-sharing services</string>
+    <string name="likes">Likes</string>
+    <string name="mentions">Mentions</string>
+    <string name="followers">Followers</string>
+    <string name="comments">Comments</string>
+    <string name="gifts">Gifts</string>
+    <string name="noti_title">Hello Dear Aninar</string>
+    <string name="noti_desc">Hey, Abinar I am going to post my new video. like, share and comment that Video. I hope you can understand.</string>
+    <string name="date">08-12-2022</string>
+    <string name="user_bio">I wanna dance in the dark and never stop. We gonna light up the night like shooting stars. I don\'t scratch my head unless it...</string>
+    <string name="gifttitle">GIFTS</string>
+    <string name="all">All</string>
+    <string name="edit">Edit</string>
+    <string name="add_cover">Add cover</string>
+    <string name="full_name">Full name</string>
+    <string name="username">Username</string>
+    <string name="profile_bio">Profile Bio</string>
+    <string name="wallet">Wallet</string>
+    <string name="balance">Balance</string>
+    <string name="coins">Coins</string>
+    <string name="diamonds">Diamonds</string>
+    <string name="privacy_string">By logging in,you accept the terms of the</string>
+    <string name="user_agreement_and_privacy_policy">user agreement and privacy policy</string>
+    <string name="send_a_message">Send a message</string>
+    <string name="gallery">Gallery</string>
+    <string name="camara">Camara</string>
+    <string name="confirmation_close_app">Do you really want to close app?</string>
+    <string name="close_button">Close</string>
+    <string name="cancel_button">Cancle</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="exit_alert">Are you sure you want to exit ?</string>
+    <string name="discover">Discover</string>
+    <string name="send">Send</string>
+    <string name="irina_iriser">\@Irina_Iriser</string>
+    <string name="abiya_ruman">\@abiya_ruman</string>
+    <string name="pranshi_2000">\@pranshi_2000</string>
+    <string name="recharge">Recharge</string>
+    <string name="notification_channel_name">Default</string>
+    <string name="notification_download_description">Should not taker longer than a few seconds.</string>
+    <string name="notification_download_title">Download file…</string>
+    <string name="notification_channel_id">default</string>
+    <string name="songs">Songs</string>
+    <string name="Choose_Sticker">Choose Sticker</string>
+    <string name="message_trim_too_long" formatted="false">Please select no more that %d seconds to cut.</string>
+    <string name="message_trim_too_short" formatted="false">Please select at least %d seconds to cut.</string>
+
+    <string name="notification_preview_description">This will take just a few moments.</string>
+    <string name="notification_preview_title">Preparing for upload…</string>
+    <string name="notification_upload_description">Just a few moments before it goes on air.</string>
+    <string name="notification_upload_title">Uploading Relite…</string>
+    <string name="notification_upload_failed_description">The video has to been saved to drafts.</string>
+    <string name="notification_upload_failed_title">Failed to upload.</string>
+    <string name="notification_watermark_description">This will take a while, we\'ll notify you when done.</string>
+    <string name="notification_watermark_title">Optimizing clip…</string>
+    <string name="uploading_message">Your clip will be uploaded shortly.</string>
+    <string name="confirmation_delete_draft">Do you really want to permanently delete this draft clip? It cannot be undone.</string>
+
+    <string name="count_clips" formatted="false">%s clips</string>
+    <string name="Myntra">Myntra</string>
+    <string name="Setting">Setting</string>
+    <string name="notification">Notification</string>
+    <string name="terms_of_service">Terms Of Service</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="about_us">About Us</string>
+    <string name="log_out">Log Out</string>
+
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array name="hashtag_cloth">
+        <item>@drawable/cloth1</item>
+        <item>@drawable/cloth2</item>
+        <item>@drawable/cloth3</item>
+        <item>@drawable/cloth4</item>
+        <item>@drawable/cloth2</item>
+        <item>@drawable/cloth1</item>
+        <item>@drawable/cloth4</item>
+        <item>@drawable/cloth3</item>
+        <item>@drawable/cloth2</item>
+        <item>@drawable/cloth1</item>
+    </integer-array>
+
+    <integer-array name="hashtag_skill">
+        <item>@drawable/skill1</item>
+        <item>@drawable/skill2</item>
+        <item>@drawable/skill3</item>
+        <item>@drawable/skill4</item>
+        <item>@drawable/skill2</item>
+        <item>@drawable/skill1</item>
+        <item>@drawable/skill3</item>
+        <item>@drawable/skill2</item>
+        <item>@drawable/skill4</item>
+        <item>@drawable/skill1</item>
+    </integer-array>
+
+
+</resources>
